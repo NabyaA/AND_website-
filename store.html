@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Store</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="store.js"></script>
+  </head>
+  <!-- _________________________________________________________________________________ -->
+        <!--Start of Tawk.to Script-->
+      <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/5c58109d6cb1ff3c14cb03d9/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+      </script>
+      <!--End of Tawk.to Script-->
+  <!-- _________________________________________________________________________________ -->
+  <body>
+      <header class="main-header">
+        <nav class="nav main-nav">
+          <ul>
+            <li><a href="index.html"><strong>HOME</strong></a></li>
+            <li><a href="store.html"><strong>STORE</strong></a></li>
+            <li><strong>CONTACT US</strong></li>
+            <li><button class="btn btn-cart"> CART <i class="fa fa-shopping-cart"></i></button></li>
+            <!-- TODO: search bar?  -->
+          </ul>
+
+        </nav>
+        <!-- TODO: Name + logo  -->
+        <h1 class ="brand-name">Golden Shoes</h1>
+        <!-- TODO: add nav bar? -->
+      </header>
+      <section class="container content-section">
+        <!-- <h2>Browse Shoes</h2> -->
+        <div class="item-grid">
+          <div class="single-item">
+            <img class ="item-image" src="images/s_canvas.jpg" width=250>
+            <span class="item-name">Shoe name 1</span>
+            <div class="item-details">
+              <span class="item-price">£15.99</span>
+              <button class="btn btn-primary btn-add">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="single-item">
+            <img class ="item-image" src="images/s_graylow.jpeg" width=250>
+            <span class="item-name">Shoe name 2</span>
+            <div class="item-details">
+              <span class="item-price">£50.99</span>
+              <button class="btn btn-primary btn-add">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="single-item">
+            <img class ="item-image" src="images/s_trainer.jpeg" width=250>
+            <span class="item-name">Shoe name 3</span>
+            <div class="item-details">
+              <span class="item-price">£89.99</span>
+              <button class="btn btn-primary btn-add">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="single-item">
+            <img class ="item-image" src="images/s_walking.jpg" width=250>
+            <span class="item-name">Shoe name 4</span>
+            <div class="item-details">
+              <span class="item-price">£39.99</span>
+              <button class="btn btn-primary btn-add">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="single-item">
+            <img class ="item-image" src="images/s_heel2.jpeg" width=250>
+            <span class="item-name">Shoe name 5</span>
+            <div class="item-details">
+              <span class="item-price">£49.99</span>
+              <button class="btn btn-primary btn-add">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="single-item">
+            <img class ="item-image" src="images/s_trainer1.jpg" width=250>
+            <span class="item-name">Shoe name 6</span>
+            <div class="item-details">
+              <span class="item-price">£65.99</span>
+              <button class="btn-out">OUT OF STOCK</button>
+            </div>
+          </div>
+          <div class="single-item">
+            <img class ="item-image" src="images/s_heel1.jpeg" width=250>
+            <span class="item-name">Shoe name 7</span>
+            <div class="item-details">
+              <span class="item-price">£39.99</span>
+              <button class="btn btn-primary btn-add">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="single-item">
+            <img class ="item-image" src="images/s_redHeel.jpeg" width=250>
+            <span class="item-name">Shoe name 8</span>
+            <div class="item-details">
+              <span class="item-price">£60.99</span>
+              <button class="btn btn-primary btn-add">ADD TO CART</button>
+            </div>
+          </div>
+      </div>
+      </section>
+
+      <section class="cart-container">
+        <h2>cart</h2>
+        <div class="cart-row">
+          <span class="cart-header cart-column cart-item">ITEM</span>
+          <span class="cart-header cart-column cart-price">PRICE</span>
+          <span class="cart-header cart-column cart-quantity">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+          <span class="total-title">Total</span>
+          <span class="total-price">£0.00</span>
+        </div>
+        <button class="btn btn-primary btn-purchase">PURCHASE</button>
+      </section>
+      <footer class="footer">
+        <h3> social media links</h3>
+      </footer>
+  </body>
+</html>
